@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[2595,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","889","static/chunks/889-7d96b94e61509a9d.js","313","static/chunks/app/rewards/page-4620cc5675d40505.js"],"default"]
+3:I[2326,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[2326,[],"ViewportBoundary"]
+9:I[2326,[],"MetadataBoundary"]
+7:X
+1f:X
+1f:C
+0:{"buildId":"YnoWkic30cIU5_uTB-yoJ","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"page-heading","children":[["$","p",null,{"className":"eyebrow","children":"LITTLE WINS ADD UP"}],["$","h1",null,{"children":"A workshop that grows with you."}],["$","p",null,{"children":"Play. Learn. Collect something worth coming back to. Keep your lifetime progress. Choose how to spend your earned Points."}]]}],["$","p",null,{"className":"notice","children":"Account sign-in and the Points shop are not enabled in this release. The rules below describe the rewards system; free practice is available now."}],["$","$L2",null,{"view":"rewards"}],["$","section",null,{"className":"reading","children":[["$","h2",null,{"children":"Daily login rewards"}],["$","p",null,{"children":"Signed-in accounts receive 10 Points on their first visit each UTC day. Consecutive days 3, 7, 14 and 30 add 20, 50, 100 and 200 bonus Points: 670 Points over a complete 30-day cycle. The cycle repeats while your total streak continues. Missing a day restarts the streak, but keeps your earned assets. Login rewards are separate from game participation limits and require the connected account service."}],["$","h2",null,{"children":"How verified points work"}],["$","p",null,{"children":"The game service replays your moves before awarding points. The first warm-up clear in each mode earns 10 points. A verified Level 2 clear earns a first-clear bonus of 100; a first no-hint clear adds 50, and a first run without Hint, Undo or Rescue adds 100."}],["$","p",null,{"children":"Progress milestones at 50%, 75% and 90% are awarded once per mode. Participation bonuses are capped each UTC day, while accumulated points never reset. Retry is always free. Repeating the same submitted result does not award it twice."}],["$","h2",null,{"children":"Spendable balance and permanent ownership"}],["$","p",null,{"children":"Earned Points increase both your lifetime total and spendable balance. Buying an item reduces only the balance. Purchased backgrounds and screw finishes remain yours; equip them independently in My Workshop and the current games. Cosmetic finishes keep sorting colors and symbols intact."}],["$","h2",null,{"children":"Helpers and sharing"}],["$","p",null,{"children":"Helper inventory carries over between days. Hint highlights a verified continuation, Undo restores the previous move, and Rescue adds temporary space in Level 2. Each helper has a per-run limit. A run completed with helpers still earns its clear badge and first-clear achievement; a perfect run requires no helpers."}],["$","p",null,{"children":"After using all three helpers, the configured share reward offers one Rescue per run. Sharing is optional and Retry stays free. The site records your confirmation of sharing, not independent verification that a social post was published. Purchases, inventory and verified rewards require the configured game service. Local practice does not award verified Points."}]]}]],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Screw Points & Rewards – Make the Workshop Yours"}],["$","meta","1",{"name":"description","content":"Learn how verified Screw Points and Level 2 milestones work. Explore backgrounds, screw finishes and helper inventory, with clear rules for balances and local practice."}],["$","link","2",{"rel":"manifest","href":"/site.webmanifest"}],"$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b"]}]}]}],null]}],"isPartial":"$@1c","staleTime":"$7","varyParams":null},{"rsc":"$L1d","isPartial":"$@1e","staleTime":"$7","varyParams":"$1f"},{"rsc":"$L20","isPartial":"$@21","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@22","rootVaryParams":null,"needsRuntimeRequest":"$@23"}
+24:I[7571,[],"IconMark"]
+25:I[8879,[],""]
+26:I[5603,[],""]
+27:I[4807,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","177","static/chunks/app/layout-01b8401abb4a2394.js"],""]
+28:I[1585,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","177","static/chunks/app/layout-01b8401abb4a2394.js"],"default"]
+29:I[9382,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","974","static/chunks/app/page-39a1c15011517e01.js"],""]
+:HL["/_next/static/css/a04746d0a91a2752.css","style"]
+5:null
+a:["$","meta","3",{"name":"keywords","content":"Screw Points & Rewards,Screw Game,Screw Games"}]
+b:["$","link","4",{"rel":"canonical","href":"https://screwgame.io/rewards/"}]
+c:["$","meta","5",{"property":"og:title","content":"Screw Points & Rewards – Make the Workshop Yours"}]
+d:["$","meta","6",{"property":"og:description","content":"Learn how verified Screw Points and Level 2 milestones work. Explore backgrounds, screw finishes and helper inventory, with clear rules for balances and local practice."}]
+e:["$","meta","7",{"property":"og:url","content":"https://screwgame.io/rewards/"}]
+f:["$","meta","8",{"property":"og:site_name","content":"Screw Game"}]
+10:["$","meta","9",{"property":"og:image","content":"https://screwgame.io/share.png"}]
+11:["$","meta","10",{"property":"og:image:width","content":"1200"}]
+12:["$","meta","11",{"property":"og:image:height","content":"630"}]
+13:["$","meta","12",{"property":"og:image:alt","content":"Screw Game — one more turn"}]
+14:["$","meta","13",{"property":"og:type","content":"website"}]
+15:["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}]
+16:["$","meta","15",{"name":"twitter:title","content":"Screw Points & Rewards – Make the Workshop Yours"}]
+17:["$","meta","16",{"name":"twitter:description","content":"Learn how verified Screw Points and Level 2 milestones work. Explore backgrounds, screw finishes and helper inventory, with clear rules for balances and local practice."}]
+18:["$","meta","17",{"name":"twitter:image","content":"https://screwgame.io/share.png"}]
+19:["$","link","18",{"rel":"shortcut icon","href":"/logo.svg"}]
+1a:["$","link","19",{"rel":"icon","href":"/logo.svg"}]
+1b:["$","$L24","20",{}]
+1d:["$","$1","c",{"children":[null,["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}]}]]}]
+20:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a04746d0a91a2752.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L27",null,{"src":"/site-install.js","strategy":"beforeInteractive"}],["$","$L28",null,{"children":["$","$L25",null,{"parallelRouterKey":"children","template":["$","$L26",null,{}],"notFound":[["$","section",null,{"className":"reading","children":[["$","p",null,{"className":"eyebrow","children":"ONE SCREW LOOSE"}],["$","h1",null,{"children":"This piece isn’t here."}],["$","p",null,{"children":"The page may have moved, or the address may be incomplete. Your next puzzle is still waiting."}],["$","$L29",null,{"href":"/games/","className":"button primary","children":"Back to the games →"}]]}],[]]}]}],["$","$L27",null,{"src":"https://data.1back.link/js/app.js","strategy":"afterInteractive","data-domain":"screwgame.io","data-api":"https://data.1back.link/api/send"}]]}]}]]}]
+7:300
+23:true
+7:C
+22:0
+1c:"$undefined"
+1e:"$undefined"
+21:"$undefined"
+6:"$undefined"
