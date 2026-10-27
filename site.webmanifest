@@ -5,8 +5,8 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#e27332",
+  "background_color": "#f7f8f4",
+  "theme_color": "#226c59",
   "prefer_related_applications": false,
   "icons": [
     {
@@ -21,5 +21,6 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "description": "Six free screw puzzle games, two levels each. Learn, play and build your workshop."
 }

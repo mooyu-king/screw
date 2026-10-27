@@ -1,0 +1,12 @@
+.git
+.git/**
+.github/**
+.wrangler/**
+node_modules/**
+wrangler.jsonc
+README*
+HANDOFF.md
+**/*.log
+**/*.map
+
+_worker/**

@@ -9,7 +9,10 @@
   Cache-Control: public, max-age=31536000, immutable
 /runtime/index.html
   Cache-Control: no-cache
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
 /*
-  Content-Security-Policy: frame-ancestors https://screwgame.io https://www.screwgame.io;
+  Content-Security-Policy: frame-ancestors https://screw.games https://www.screw.games;
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

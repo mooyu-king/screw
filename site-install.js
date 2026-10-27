@@ -1,6 +1,7 @@
-/* Local install control. No game, account, cache or service-worker changes. */
+/* 安装与回访入口；缓存注册由pwa-register.js负责。 */
 (() => {
   if (customElements.get("site-install-app")) return;
+  const track = name => { try { window.plausible?.(name); } catch {} };
   let pending = null;
   let installed = false;
   let busy = false;
@@ -9,10 +10,12 @@
   const notify = () => subscribers.forEach(update => update());
   window.addEventListener("beforeinstallprompt", event => {
     event.preventDefault();
+    track('PWA Install Available');
     pending = event;
     notify();
   });
   window.addEventListener("appinstalled", () => {
+    track('PWA Installed');
     installed = true;
     pending = null;
     notify();
@@ -40,7 +43,7 @@
           h2 { font-size:22px; line-height:1.3; margin:0 28px 14px 0; }
           p { margin:12px 0; }
           .note { font-size:13px; color:#485665; }
-          .close { position:absolute; top:10px; right:10px; display:grid; place-items:center; width:32px; height:32px; padding:0; border:0; background:transparent; color:inherit; border-radius:50%; }
+          .close { position:absolute; top:10px; right:10px; display:grid; place-items:center; width:44px; height:44px; padding:0; border:0; background:transparent; color:inherit; border-radius:50%; }
           .close:hover { background:#17223812; }
           .close svg { width:16px; height:16px; }
           .copy { min-height:44px; border:1px solid #84909e; border-radius:10px; padding:8px 16px; background:#f1f5f9; color:#172238; font-weight:700; }
@@ -74,10 +77,11 @@
             ? "Open this site in Safari, tap Share, then Add to Home Screen. If you are in an in-app browser, open the link in Safari first."
             : "In Chrome or Edge, use the browser menu to install this site when offered. On supported Macs, use Safari: File > Add to Dock. If installation is unavailable, bookmark this page instead.";
         status.textContent = message || "";
-        if (!dialog.open) dialog.showModal();
+        if (!dialog.open) { track("PWA Install Help"); dialog.showModal(); }
         trigger.setAttribute("aria-expanded", "true");
       };
       trigger.addEventListener("click", async () => {
+        track("PWA Install Click");
         if (busy) return;
         if (!pending || isInstalled()) { openGuide(); return; }
         const event = pending;
@@ -87,6 +91,7 @@
         try {
           await event.prompt();
           const choice = await event.userChoice;
+          track("PWA Install Result");
           if (choice.outcome !== "accepted") openGuide("Installation was cancelled. You can still save the site using your browser menu.");
         } catch {
           openGuide("The browser could not open the installer. Please use the instructions below or try again later.");
@@ -104,8 +109,8 @@
       });
       root.querySelector(".copy").addEventListener("click", async () => {
         const url = new URL("/", location.href).href;
-        try { await navigator.clipboard.writeText(url); status.textContent = "Site link copied."; }
-        catch { status.textContent = "Copy this link manually: " + url; }
+        try { await navigator.clipboard.writeText(url); track('PWA Link Copied'); status.textContent = "Site link copied."; }
+        catch { status.textContent = 'Copy this link:'; const input = document.createElement('input'); input.readOnly = true; input.value = url; input.setAttribute('aria-label', 'Site link'); status.append(input); input.select(); }
       });
       subscribers.add(this.update);
       this.update();

@@ -1,0 +1,9 @@
+{
+  "name": "screwgame",
+  "main": "_worker/worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": true, "html_handling": "force-trailing-slash", "not_found_handling": "404-page" },
+  "durable_objects": { "bindings": [{ "name": "PLAYERS", "class_name": "PlayerStore" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PlayerStore"] }],
+  "vars": { "ENVIRONMENT": "production" }
+}

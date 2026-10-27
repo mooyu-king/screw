@@ -1,27 +1,56 @@
-# ScrewGame.io
+# Screw Games
 
-![Screw Game Logo](logo.svg)
+![Screw Games 标志](logo.svg)
 
-正式域名：[screwgame.io](https://screwgame.io/)。自研浏览器螺丝解谜网站：Screw Puzzle、Screw Sort、Screw Jam，每种模式两个随机可解难度模板。
+**拧动一颗螺丝，换一种思路。**
 
-## 实现与运行
+[Screw Games](https://screw.games/) 是一个专注螺丝益智玩法的浏览器游戏合集。无需下载即可开始，在电脑或手机上体验拆解、分类、配色、空间观察与路线规划。
 
-- Next.js App Router 静态主站、Phaser 3 独立游戏 Runtime、TypeScript 共享规则引擎。
-- 原创 SVG Logo、程序化机械插图、可折叠侧栏、攻略、信任页面及 Sitemap。
-- Cloudflare Worker + Durable Object（持久对象）结算代码；未配置服务时只有浏览器练习，不伪造可信积分。
-- 本地依赖实际存放于 `D:\99_tool\sources\screwgame-web\node_modules`，项目通过目录联接引用。
+## 六款游戏，六种思考方式
 
-```powershell
-npm run test
-npm run typecheck
-npm run lint
-npm run build-preserve-git
-```
+| 游戏 | 玩法 |
+| --- | --- |
+| [Screw Puzzle](https://screw.games/games/screw-puzzle/) | 移动螺丝、改变支撑，让板条逐步松开并落下。 |
+| [Screw Sort](https://screw.games/games/screw-sort/) | 在杆之间移动顶端螺母，把混合颜色整理成同色堆叠。 |
+| [Screw Jam](https://screw.games/games/screw-jam/) | 拆开彩色结构，收集三个同色螺丝，同时为暂存区留出空间。 |
+| [Screw Box](https://screw.games/games/screw-box/) | 按当前颜色订单装满收集盒，安排下一步取出哪些螺丝。 |
+| [Screw 3D](https://screw.games/games/screw-3d/) | 旋转立体模型，观察不同表面，找出可拆解的螺丝与面板。 |
+| [Screw Escape](https://screw.games/games/screw-escape/) | 移除支撑、调整斜坡，引导小球收集钥匙并到达出口。 |
 
-用户本地预览可以使用 `npm run dev`。本次开发不自动启动浏览器。生产静态文件位于 `out/`，独立 Runtime 产物位于 `runtime-dist/`。构建保留既有 `out/.git` 和 `out/README.md`，不会自动提交、推送或部署。GitHub 地址尚未提供，因此不初始化虚构远程仓库。
+![Screw Puzzle 的支撑板与螺丝玩法插画](art/screw-puzzle.svg)
+![Screw Sort 的彩色螺母分类玩法插画](art/screw-sort.svg)
+![Screw Jam 的彩色结构拆解玩法插画](art/screw-jam.svg)
+![Screw Box 的颜色订单收集玩法插画](art/screw-box.svg)
+![Screw 3D 的立体模型玩法插画](art/screw-3d.svg)
+![Screw Escape 的小球与斜坡路线玩法插画](art/screw-escape.svg)
 
-统计主站使用 `screwgame.io`、独立 Runtime 使用 `game.screwgame.io`，脚本为 `https://data.1back.link/js/app.js`。正式分域发布需设置游戏与 API Origin，配置服务端密钥、持久对象及域名；不能仅上传静态目录就宣称服务端积分可用。
+以上图片为玩法插画，并非游戏实机截图。
 
-![游戏机制插图](art/screw-puzzle.svg)
+## 每款两关，从理解规则到挑战自己
 
-图片为实际随站分发的机制插图，并非浏览器实测截图。浏览器及生产验证状态见源码交接与审查记录。
+- **第一关：教学入门。** 在简洁的局面中理解这款游戏的核心操作。
+- **第二关：专家挑战。** 面对更多层次、颜色或路线约束，仔细规划每一步。
+- **按自己的节奏思考。** 没有倒计时催促；可以重试相同布局，或换一个新布局。
+- **遇到困难时使用辅助。** 提示、撤销和救援各有用途；具体效果与可用次数在游戏内说明。
+
+第二关以高难度为设计方向，尚无经过真人统计验证的固定通过率。
+
+## 轻松开始，逐步掌握
+
+游客可以直接免费练习。六款游戏使用不同的封面与操作图标，支持电脑和手机布局；页面提供独立玩法介绍、操作图解、攻略与常见问题。
+
+网站还提供安装到桌面或主屏幕的入口，具体方式取决于设备和浏览器支持。
+
+账户体系包含连续签到、通关积分以及积分兑换道具和外观。规则为第一关通关奖励 2 积分、第二关奖励 10 积分；游客练习不产生账户积分。**当前真实登录与在线账户服务仍待接入验收，不能将本地练习当作已经到账的个人积分。**
+
+## 找到适合你的玩法
+
+- [浏览全部游戏](https://screw.games/games/)
+- [了解如何游玩](https://screw.games/guides/how-to-play/)
+- [阅读图文攻略](https://screw.games/guides/)
+
+## 关于与联系
+
+联系邮箱：[marlonqiu2026@gmail.com](mailto:marlonqiu2026@gmail.com)
+
+[About Us](https://screw.games/about/) · [Privacy Policy](https://screw.games/privacy-policy/) · [Contact](https://screw.games/contact/) · [Terms of Service](https://screw.games/terms/)

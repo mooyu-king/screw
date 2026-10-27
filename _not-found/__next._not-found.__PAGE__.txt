@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[9382,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","451","static/chunks/451-f327f62e2e198b27.js","974","static/chunks/app/page-e913ad2629d6ef6d.js"],""]
+3:I[2326,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[2326,[],"ViewportBoundary"]
+9:I[2326,[],"MetadataBoundary"]
+a:I[7571,[],"IconMark"]
+c:I[8879,[],""]
+d:I[5603,[],""]
+10:I[4807,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","177","static/chunks/app/layout-90c9a14501cabad3.js"],""]
+11:I[1585,["126","static/chunks/a3a83d2e-3ab865122ef8667c.js","382","static/chunks/382-e34a6e52ab2ddfc7.js","67","static/chunks/67-52852588df123145.js","177","static/chunks/app/layout-90c9a14501cabad3.js"],"default"]
+:HL["/_next/static/css/632295d37d601277.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"9WrKfDGMPAbS6VCtvMwgd","data":[{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"reading","children":[["$","p",null,{"className":"eyebrow","children":"ONE SCREW LOOSE"}],["$","h1",null,{"children":"This piece isn’t here."}],["$","p",null,{"children":"The page may have moved, or the address may be incomplete. Your next puzzle is still waiting."}],["$","$L2",null,{"href":"/games/","className":"button primary","children":"Back to the games →"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","link","0",{"rel":"manifest","href":"/site.webmanifest"}],["$","link","1",{"rel":"shortcut icon","href":"/logo.svg"}],["$","link","2",{"rel":"icon","href":"/logo.svg"}],["$","$La","3",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/632295d37d601277.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","$L10",null,{"src":"/site-install.js","strategy":"beforeInteractive"}],["$","$L11",null,{"children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","section",null,{"className":"reading","children":[["$","p",null,{"className":"eyebrow","children":"ONE SCREW LOOSE"}],["$","h1",null,{"children":"This piece isn’t here."}],["$","p",null,{"children":"The page may have moved, or the address may be incomplete. Your next puzzle is still waiting."}],["$","$L2",null,{"href":"/games/","className":"button primary","children":"Back to the games →"}]]}],[]]}]}],["$","$L10",null,{"src":"/pwa-register.js","strategy":"afterInteractive"}],["$","$L10",null,{"src":"https://data.1back.link/js/app.js","strategy":"afterInteractive","data-domain":"screw.games","data-api":"https://data.1back.link/api/send"}]]}]}]]}],"isPartial":"$@12","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@13","rootVaryParams":null,"needsRuntimeRequest":"$@14"}
+5:null
+7:300
+14:true
+7:C
+13:0
+b:"$undefined"
+e:"$undefined"
+12:"$undefined"
+6:"$undefined"
