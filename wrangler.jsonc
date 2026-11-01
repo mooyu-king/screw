@@ -1,9 +1,34 @@
 {
-  "name": "screwgame",
+  "name": "screw",
   "main": "_worker/worker.js",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": true, "html_handling": "force-trailing-slash", "not_found_handling": "404-page" },
-  "durable_objects": { "bindings": [{ "name": "PLAYERS", "class_name": "PlayerStore" }] },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PlayerStore"] }],
-  "vars": { "ENVIRONMENT": "production" }
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PLAYERS",
+        "class_name": "PlayerStore"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "PlayerStore"
+      ]
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "SUPABASE_URL": "https://mlraogihgbogseqvxsuo.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_WQtSRijAU3qRE89d13CT9w_g2IWp9yO",
+    "ADMIN_EMAILS": "mooyuking@gmail.com"
+  }
 }

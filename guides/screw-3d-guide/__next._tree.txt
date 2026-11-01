@@ -1,2 +1,2 @@
-:HL["/_next/static/css/632295d37d601277.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"guides","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"screw-3d-guide","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"9WrKfDGMPAbS6VCtvMwgd"}
+:HL["/_next/static/css/ff63bde304d28888.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"guides","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"screw-3d-guide","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"A30WkL_qxTFjxmKqdw8VU"}

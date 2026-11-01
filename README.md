@@ -51,6 +51,6 @@
 
 ## 关于与联系
 
-联系邮箱：[marlonqiu2026@gmail.com](mailto:marlonqiu2026@gmail.com)
+联系邮箱：[marlonqiu2027@gmail.com](mailto:marlonqiu2027@gmail.com)
 
 [About Us](https://screw.games/about/) · [Privacy Policy](https://screw.games/privacy-policy/) · [Contact](https://screw.games/contact/) · [Terms of Service](https://screw.games/terms/)
