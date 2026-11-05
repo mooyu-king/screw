@@ -1,4 +1,4 @@
 :HL["/_next/static/css/ff63bde304d28888.css","style"]
 :HL["/art/hero.svg","image"]
 :HL["/art/workshop.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"A30WkL_qxTFjxmKqdw8VU"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"LovxuaGByFyG6trtQhEc4"}
